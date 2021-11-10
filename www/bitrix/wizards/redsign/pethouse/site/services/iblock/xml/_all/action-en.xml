@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<CommerceInformation SchemaVersion="2.021" CreationDate="2013-11-14T00:58:52">
+	<Metadata>
+		<Id>action_redsign_pethouse</Id>
+		<Title>Deals</Title>
+		<Properties>
+			<Property>
+				<Id>CML2_ACTIVE</Id>
+				<Title>BitrixActive</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_CODE</Id>
+				<Title>Code</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_SORT</Id>
+				<Title>Sort</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_FROM</Id>
+				<Title>Start time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_ACTIVE_TO</Id>
+				<Title>End time</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_TEXT</Id>
+				<Title>Anons</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_DETAIL_TEXT</Id>
+				<Title>Description</Title>
+				<Multiple>false</Multiple>
+			</Property>
+			<Property>
+				<Id>CML2_PREVIEW_PICTURE</Id>
+				<Title>Preview picture</Title>
+				<Multiple>false</Multiple>
+			</Property>
+		</Properties>
+		<Sections>
+		</Sections>
+	</Metadata>
+	<Catalog>
+		<Id>action_redsign_pethouse</Id>
+		<MetadataId>action_redsign_pethouse</MetadataId>
+		<Title>Deals</Title>
+		<BitrixCode>action_redsign_pethouse</BitrixCode>
+		<BitrixSort>200</BitrixSort>
+		<BitrixListURL>#SITE_DIR#action/</BitrixListURL>
+		<BitrixDetailURL>#SITE_DIR#action/#ELEMENT_CODE#/</BitrixDetailURL>
+		<BitrixSectionURL>#SITE_DIR#action/</BitrixSectionURL>
+		<BitrixPicture></BitrixPicture>
+		<BitrixIndexElements>true</BitrixIndexElements>
+		<BitrixIndexSections>true</BitrixIndexSections>
+		<BitrixWorkflow>false</BitrixWorkflow>
+		<BitrixLabels>
+			<BitrixLabel>
+				<Id>ELEMENT_NAME</Id>
+				<Value>Deal</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENTS_NAME</Id>
+				<Value>Deals</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_ADD</Id>
+				<Value>Add deal</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_EDIT</Id>
+				<Value>Edit deal</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>ELEMENT_DELETE</Id>
+				<Value>Delete deal</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_NAME</Id>
+				<Value>Section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTIONS_NAME</Id>
+				<Value>Sections</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_ADD</Id>
+				<Value>Add section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_EDIT</Id>
+				<Value>Edit section</Value>
+			</BitrixLabel>
+			<BitrixLabel>
+				<Id>SECTION_DELETE</Id>
+				<Value>Delete section</Value>
+			</BitrixLabel>
+		</BitrixLabels>
+		<Elements>
+			<Element>
+				<Id>172</Id>
+				<Title>SALE! Clothes for your pets</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+				</Sections>
+				<Picture>action_files/iblock/4bf/4bf7d12daa68a604ca0de1886f479881.png</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value>pri_pokupke_velosipeda_nastroyka_besplatno</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Duis ac justo eget quam dapibus euismod. Curabitur ante neque, viverra in quam id, mattis mollis libero. Maecenas nec placerat libero. Integer non diam mollis, interdum lectus et, lacinia diam.</Value>
+						<Type>text</Type>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_DETAIL_TEXT</Id>
+						<Value>Duis ac justo eget quam dapibus euismod. Curabitur ante neque, viverra in quam id, mattis mollis libero. Maecenas nec placerat libero. Integer non diam mollis, interdum lectus et, lacinia diam. Curabitur eget mi sit amet nulla feugiat mollis non sit amet lorem. Donec imperdiet suscipit leo sit amet pharetra. Aliquam rutrum, odio in pellentesque posuere, odio lorem porttitor velit, sed ornare dui lorem quis sem. Proin tincidunt arcu sit amet arcu blandit semper.</Value>
+						<Type>text</Type>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>action_files/iblock/1b8/1b878d1c77fb4d48b8f148db2ffff28c.png</Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+			<Element>
+				<Id>175</Id>
+				<Title>Sale 30%! For all kinds of the food</Title>
+				<BitrixTags></BitrixTags>
+				<Sections>
+				</Sections>
+				<Picture>action_files/iblock/7df/7df01df844a034c07e087431ef09ef48.png</Picture>
+				<PropertiesValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE</Id>
+						<Value>true</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_CODE</Id>
+						<Value>skidka_30_na_vse_modeli_krosovok_dlya_bega</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_SORT</Id>
+						<Value>500</Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_FROM</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_ACTIVE_TO</Id>
+						<Value></Value>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_TEXT</Id>
+						<Value>Donec et sollicitudin sapien. Sed in tristique elit, ac condimentum augue. Nullam egestas orci a pulvinar hendrerit. Pellentesque vitae consequat sem. Cras volutpat vehicula tortor ac dapibus. Duis fermentum lorem quis est elementum aliquet. Nunc ac commodo arcu. Nullam rutrum ligula fringilla lacus imperdiet bibendum. Quisque at justo consequat, sagittis sem eu, congue massa. Donec suscipit urna pretium purus imperdiet, quis egestas orci congue. Donec at semper nibh. Vivamus eget leo mollis, tempor nulla eu, faucibus tortor.</Value>
+						<Type>text</Type>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_DETAIL_TEXT</Id>
+						<Value>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper vehicula tincidunt. Sed non eleifend justo, pretium sodales tellus. Donec vel nisl pretium, suscipit mi nec, dictum urna. Nunc id dapibus urna. Donec et sollicitudin sapien. Sed in tristique elit, ac condimentum augue. Nullam egestas orci a pulvinar hendrerit. Pellentesque vitae consequat sem. Cras volutpat vehicula tortor ac dapibus. Duis fermentum lorem quis est elementum aliquet. Nunc ac commodo arcu. Nullam rutrum ligula fringilla lacus imperdiet bibendum. Quisque at justo consequat, sagittis sem eu, congue massa. Donec suscipit urna pretium purus imperdiet, quis egestas orci congue. Donec at semper nibh. Vivamus eget leo mollis, tempor nulla eu, faucibus tortor.
+
+Duis at tortor diam. Quisque malesuada sodales vestibulum. Curabitur posuere venenatis augue eu venenatis. Phasellus in pellentesque massa. Sed pulvinar tempor augue vel tincidunt. Nam ut vestibulum dolor. Cras quis lobortis ligula. Cras eget odio eget odio ultrices pellentesque. Integer a luctus massa. Integer rhoncus tortor a mollis dapibus. Aenean eu nulla risus. Etiam nec purus id est lobortis dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris enim, scelerisque vel pulvinar vel, fermentum eu diam. Aenean at nibh ornare, luctus eros vitae, sagittis risus.</Value>
+						<Type>text</Type>
+					</PropertyValues>
+					<PropertyValues>
+						<Id>CML2_PREVIEW_PICTURE</Id>
+						<Value>action_files/iblock/862/8624459d86c7719e318a28e1b3e32c2d.png</Value>
+					</PropertyValues>
+				</PropertiesValues>
+			</Element>
+		</Elements>
+	</Catalog>
+</CommerceInformation>

@@ -1,0 +1,10 @@
+.shops-panel {
+
+  & .btn {
+    margin-bottom: $line-height-computed/2;
+    padding: $line-height-computed/2 $line-height-computed*1.5;
+  }
+  & .btn.active {
+    @extend %theme-btn1;
+  }
+}

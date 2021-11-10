@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="9" viewBox="0 0 15 9">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00529f;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="refrsh.svg" class="cls-1" d="M3,3.341V7.129H7.756L9.721,8.994H0.97V3.341H-1.007L2.012,0.065,4.968,3.341H3Zm8,2.347V1.9H6.244l-2-1.894H13.03V5.688h1.978L11.988,8.964,9.032,5.688H11Z"/>
+</svg>

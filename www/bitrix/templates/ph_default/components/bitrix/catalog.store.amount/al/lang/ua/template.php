@@ -1,0 +1,8 @@
+<?
+$MESS["RS_SLINE.BCSA_AL.PHONE"] = "телефон";
+$MESS["RS_SLINE.BCSA_AL.SCHEDULE"] = "графік роботи";
+$MESS["RS_SLINE.BCSA_AL.AMOUNT"] = "залишок";
+$MESS["RS_SLINE.BCSA_AL.IN_STOCK"] = "Є";
+$MESS["RS_SLINE.BCSA_AL.LIMITED_AVAILABILITY"] = "Мало";
+$MESS["RS_SLINE.BCSA_AL.OUT_OF_STOCK"] = "Немає";
+?>

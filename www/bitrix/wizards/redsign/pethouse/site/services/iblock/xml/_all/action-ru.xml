@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<КоммерческаяИнформация ВерсияСхемы="2.021" ДатаФормирования="2013-11-14T00:58:52">
+	<Классификатор>
+		<Ид>action_redsign_pethouse</Ид>
+		<Наименование>Акции</Наименование>
+		<Свойства>
+			<Свойство>
+				<Ид>CML2_ACTIVE</Ид>
+				<Наименование>БитриксАктивность</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_CODE</Ид>
+				<Наименование>Символьный код</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_SORT</Ид>
+				<Наименование>Сортировка</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_ACTIVE_FROM</Ид>
+				<Наименование>Начало активности</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_ACTIVE_TO</Ид>
+				<Наименование>Окончание активности</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_PREVIEW_TEXT</Ид>
+				<Наименование>Анонс</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_DETAIL_TEXT</Ид>
+				<Наименование>Описание</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+			<Свойство>
+				<Ид>CML2_PREVIEW_PICTURE</Ид>
+				<Наименование>Картинка анонса</Наименование>
+				<Множественное>false</Множественное>
+			</Свойство>
+		</Свойства>
+		<Группы>
+		</Группы>
+	</Классификатор>
+	<Каталог>
+		<Ид>action_redsign_pethouse</Ид>
+		<ИдКлассификатора>action_redsign_pethouse</ИдКлассификатора>
+		<Наименование>Акции</Наименование>
+		<БитриксКод>action_redsign_pethouse</БитриксКод>
+		<БитриксСортировка>200</БитриксСортировка>
+		<БитриксURLСписок>#SITE_DIR#action/</БитриксURLСписок>
+		<БитриксURLДеталь>#SITE_DIR#action/#ELEMENT_CODE#/</БитриксURLДеталь>
+		<БитриксURLРаздел>#SITE_DIR#action/</БитриксURLРаздел>
+		<БитриксКартинка></БитриксКартинка>
+		<БитриксИндексироватьЭлементы>true</БитриксИндексироватьЭлементы>
+		<БитриксИндексироватьРазделы>true</БитриксИндексироватьРазделы>
+		<БитриксДокументооборот>false</БитриксДокументооборот>
+		<БитриксПодписи>
+			<БитриксПодпись>
+				<Ид>ELEMENT_NAME</Ид>
+				<Значение>Акция</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENTS_NAME</Ид>
+				<Значение>Акции</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_ADD</Ид>
+				<Значение>Добавить акцию</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_EDIT</Ид>
+				<Значение>Изменить акцию</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>ELEMENT_DELETE</Ид>
+				<Значение>Удалить акцию</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_NAME</Ид>
+				<Значение>Раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTIONS_NAME</Ид>
+				<Значение>Разделы</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_ADD</Ид>
+				<Значение>Добавить раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_EDIT</Ид>
+				<Значение>Изменить раздел</Значение>
+			</БитриксПодпись>
+			<БитриксПодпись>
+				<Ид>SECTION_DELETE</Ид>
+				<Значение>Удалить раздел</Значение>
+			</БитриксПодпись>
+		</БитриксПодписи>
+		<Товары>
+			<Товар>
+				<Ид>172</Ид>
+				<Наименование>При покупке велосипеда - настройка бесплатно</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>action_files/iblock/4bf/4bf7d12daa68a604ca0de1886f479881.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>pri_pokupke_velosipeda_nastroyka_besplatno</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Duis ac justo eget quam dapibus euismod. Curabitur ante neque, viverra in quam id, mattis mollis libero. Maecenas nec placerat libero. Integer non diam mollis, interdum lectus et, lacinia diam.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Duis ac justo eget quam dapibus euismod. Curabitur ante neque, viverra in quam id, mattis mollis libero. Maecenas nec placerat libero. Integer non diam mollis, interdum lectus et, lacinia diam. Curabitur eget mi sit amet nulla feugiat mollis non sit amet lorem. Donec imperdiet suscipit leo sit amet pharetra. Aliquam rutrum, odio in pellentesque posuere, odio lorem porttitor velit, sed ornare dui lorem quis sem. Proin tincidunt arcu sit amet arcu blandit semper.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>action_files/iblock/1b8/1b878d1c77fb4d48b8f148db2ffff28c.png</Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+			<Товар>
+				<Ид>175</Ид>
+				<Наименование>Скидка 30% на все модели кросовок для бега</Наименование>
+				<БитриксТеги></БитриксТеги>
+				<Группы>
+				</Группы>
+				<Картинка>action_files/iblock/7df/7df01df844a034c07e087431ef09ef48.png</Картинка>
+				<ЗначенияСвойств>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE</Ид>
+						<Значение>true</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_CODE</Ид>
+						<Значение>skidka_30_na_vse_modeli_krosovok_dlya_bega</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_SORT</Ид>
+						<Значение>500</Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_FROM</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_ACTIVE_TO</Ид>
+						<Значение></Значение>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_TEXT</Ид>
+						<Значение>Donec et sollicitudin sapien. Sed in tristique elit, ac condimentum augue. Nullam egestas orci a pulvinar hendrerit. Pellentesque vitae consequat sem. Cras volutpat vehicula tortor ac dapibus. Duis fermentum lorem quis est elementum aliquet. Nunc ac commodo arcu. Nullam rutrum ligula fringilla lacus imperdiet bibendum. Quisque at justo consequat, sagittis sem eu, congue massa. Donec suscipit urna pretium purus imperdiet, quis egestas orci congue. Donec at semper nibh. Vivamus eget leo mollis, tempor nulla eu, faucibus tortor.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_DETAIL_TEXT</Ид>
+						<Значение>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc semper vehicula tincidunt. Sed non eleifend justo, pretium sodales tellus. Donec vel nisl pretium, suscipit mi nec, dictum urna. Nunc id dapibus urna. Donec et sollicitudin sapien. Sed in tristique elit, ac condimentum augue. Nullam egestas orci a pulvinar hendrerit. Pellentesque vitae consequat sem. Cras volutpat vehicula tortor ac dapibus. Duis fermentum lorem quis est elementum aliquet. Nunc ac commodo arcu. Nullam rutrum ligula fringilla lacus imperdiet bibendum. Quisque at justo consequat, sagittis sem eu, congue massa. Donec suscipit urna pretium purus imperdiet, quis egestas orci congue. Donec at semper nibh. Vivamus eget leo mollis, tempor nulla eu, faucibus tortor.
+
+Duis at tortor diam. Quisque malesuada sodales vestibulum. Curabitur posuere venenatis augue eu venenatis. Phasellus in pellentesque massa. Sed pulvinar tempor augue vel tincidunt. Nam ut vestibulum dolor. Cras quis lobortis ligula. Cras eget odio eget odio ultrices pellentesque. Integer a luctus massa. Integer rhoncus tortor a mollis dapibus. Aenean eu nulla risus. Etiam nec purus id est lobortis dapibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mauris enim, scelerisque vel pulvinar vel, fermentum eu diam. Aenean at nibh ornare, luctus eros vitae, sagittis risus.</Значение>
+						<Тип>text</Тип>
+					</ЗначенияСвойства>
+					<ЗначенияСвойства>
+						<Ид>CML2_PREVIEW_PICTURE</Ид>
+						<Значение>action_files/iblock/862/8624459d86c7719e318a28e1b3e32c2d.png</Значение>
+					</ЗначенияСвойства>
+				</ЗначенияСвойств>
+			</Товар>
+		</Товары>
+	</Каталог>
+</КоммерческаяИнформация>

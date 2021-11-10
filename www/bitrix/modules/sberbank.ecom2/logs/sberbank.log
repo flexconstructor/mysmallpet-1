@@ -1,0 +1,213 @@
+REGISTER NEW ORDER
+----------------------------
+DATE: 2020-10-29 15:50:31
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 1_0
+    [amount] => 60000
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => test order
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=1&PAYMENT_ID=1
+    [CMS] => Bitrix 20.0.1650
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.0.1650","Module-Version":"1.1.7","USER_FIO":"test","email":"prog5@it-delta.ru","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 1bce7909-93a3-74b3-802e-03fa5e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_id/payment_ru.html?mdOrder=1bce7909-93a3-74b3-802e-03fa5e414bf9
+)
+
+
+
+RESULT PAYMENT ORDER
+----------------------------
+DATE: 2020-10-29 16:05:49
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD getOrderStatusExtended.do
+DATA: 
+Array
+(
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [orderId] => 1bce7909-93a3-74b3-802e-03fa5e414bf9
+)
+
+RESPONSE: 
+{"errorCode":"0","errorMessage":"\u0423\u0441\u043f\u0435\u0448\u043d\u043e","orderNumber":"1_0","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":60000,"currency":"643","date":1603975830090,"orderDescription":"test order","ip":"46.147.123.63","merchantOrderParams":[{"name":"formUrl","value":"https:\/\/3dsec.sberbank.ru\/payment\/merchants\/sbersafe_id\/payment_ru.html?mdOrder=1bce7909-93a3-74b3-802e-03fa5e414bf9"},{"name":"phone","value":"78005553535"},{"name":"sber_safe_email","value":"v0v41999@gmail.com"},{"name":"CMS","value":"Bitrix 20.0.1650"},{"name":"new_card_payment","value":"true"},{"name":"Module-Version","value":"1.1.7"},{"name":"sber_safe_phone","value":"9885694290"},{"name":"email","value":"prog5@it-delta.ru"},{"name":"USER_FIO","value":"test"}],"transactionAttributes":[],"attributes":[{"name":"mdOrder","value":"1bce7909-93a3-74b3-802e-03fa5e414bf9"}],"cardAuthInfo":{"maskedPan":"555555**5599","expiration":"202412","cardholderName":"CARDHOLDER NAME","approvalCode":"123456","pan":"555555**5599"},"authDateTime":1603976746589,"terminalId":"123456","authRefNum":"615765966716","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":60000,"depositedAmount":60000,"refundedAmount":0},"bankInfo":{"bankName":"SOME BANK IN USA","bankCountryCode":"US","bankCountryName":"\u0421\u043e\u0435\u0434\u0438\u043d\u0435\u043d\u043d\u044b\u0435 \u0428\u0442\u0430\u0442\u044b \u0410\u043c\u0435\u0440\u0438\u043a\u0438"}}
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-05-21 17:44:45
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 2_0
+    [amount] => 1248646
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=2&PAYMENT_ID=2
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"prog5@it-delta.ru","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 2985ed26-a4a5-74f2-82d2-7f845e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=2985ed26-a4a5-74f2-82d2-7f845e414bf9
+)
+
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-05-24 16:23:31
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 5_0
+    [amount] => 470000
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=5&PAYMENT_ID=5
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"cpw90290@eoopy.com","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 9c64eeee-54ac-7c73-af15-94145e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=9c64eeee-54ac-7c73-af15-94145e414bf9
+)
+
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-05-24 17:03:53
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 6_0
+    [amount] => 3750000
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=6&PAYMENT_ID=6
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"cpw90290@eoopy.com","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 84331c22-b00c-7386-978a-c7605e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=84331c22-b00c-7386-978a-c7605e414bf9
+)
+
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-06-30 15:07:02
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 6_1
+    [amount] => 3750000
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=6&PAYMENT_ID=6
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"cpw90290@eoopy.com","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 740fe696-c87e-73ec-8cf0-519e5e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=740fe696-c87e-73ec-8cf0-519e5e414bf9
+)
+
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-07-05 12:25:28
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 10_0
+    [amount] => 8349920
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=10&PAYMENT_ID=10
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"cpw90290@eoopy.com","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => 5d8bdb17-437e-7e75-9124-ab9e5e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=5d8bdb17-437e-7e75-9124-ab9e5e414bf9
+)
+
+
+
+REGISTER NEW ORDER
+----------------------------
+DATE: 2021-07-06 17:59:55
+URL https://3dsec.sberbank.ru/payment/rest/
+METHOD register.do
+DATA: 
+Array
+(
+    [orderNumber] => 12_0
+    [amount] => 79920
+    [userName] => T622200276986-api
+    [password] => T622200276986
+    [description] => 
+    [returnUrl] => http://mysmallpet.itdelta-test.ru:80//bitrix/tools/sale_ps_result.php?PAYMENT=SBERBANK&ORDER_ID=12&PAYMENT_ID=12
+    [CMS] => Bitrix 20.700.0
+    [language] => ru
+    [jsonParams] => {"CMS":"Bitrix 20.700.0","Module-Version":"1.1.7","USER_FIO":"test","email":"yohihik769@nnacell.com","phone":"78005553535"}
+)
+
+RESPONSE: 
+Array
+(
+    [orderId] => c7f0412f-b73d-7ec1-95ef-42715e414bf9
+    [formUrl] => https://3dsec.sberbank.ru/payment/merchants/sbersafe_sberid/payment_ru.html?mdOrder=c7f0412f-b73d-7ec1-95ef-42715e414bf9
+)
+
+
+

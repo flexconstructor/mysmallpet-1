@@ -1,0 +1,1 @@
+<?php $filesInfo = ["/bitrix/templates/ph_default/components/bitrix/search.suggest.input/al/script.js" => "16354170907692",]; ?>

@@ -1,0 +1,62 @@
+.tiles {
+  &__list {
+    list-style: none;
+    padding: 0;
+  }
+  
+}
+
+.tile {
+  display: block;
+  margin-bottom: $line-height-computed;
+  
+  &__pic {
+    @extend .vcenter;
+    
+    display: block;
+    height: $line-height-computed*8;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  
+  &__img {
+    @extend .vcenter__in;
+  }
+  
+  $line-height-large: $line-height-base*$font-size-h4;
+  
+  &__head {
+    @extend .text_fade;
+
+    font-size: $font-size-h4;
+    max-height: $line-height-large*2;
+    margin: 0;
+    padding-top: $line-height-large/2;
+    text-align: center;
+
+    &:after {
+      top: $line-height-large*1.5;
+    }
+  }
+  
+  &__name {
+    color: $text-color;
+    text-decoration: none;
+  }
+  
+  &__caption {
+    display: block;
+    height: $line-height-large*3.5;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .price {
+    height: $line-height-large;
+  }
+}

@@ -1,0 +1,74 @@
+img, frame {
+  height: auto;
+  margin: auto;
+  max-width: 100%;
+}
+
+ol, ul {
+  margin-bottom: $line-height-computed;
+  margin-top: 0;
+}
+
+
+.dl-list {
+  margin-bottom: $line-height-computed;
+
+  dt {
+    color: $gray-darker;
+    float: left;
+    margin-right: $line-height-computed;
+  }
+
+  dd {
+    display: block;
+    margin: 0 0 $line-height-computed/4 $line-height-computed*7;
+  }
+}
+
+.clear {
+  clear: both;
+}
+
+.clearfix {
+  @include clearfix;
+}
+
+
+hr {
+  border-color: $gray-light;
+}
+
+.l-home_tabs {
+  border-bottom: 1px solid $gray-dark;
+  margin-bottom: $line-height-computed;
+  padding-bottom: $line-height-computed;
+  
+  @media (min-width: $screen-sm-min) {
+    margin-bottom: $line-height-computed*2;
+    padding-bottom: $line-height-computed*2;
+  }
+}
+
+.list-unstyled {
+  list-style: none;
+  padding-left: 0;
+}
+
+.vcenter {
+ @include  vertical-center;
+}
+
+.justify {
+ @include  blocks-justify;
+}
+
+.outpage {
+  height: 1px;
+  left: -10000px;
+  position: absolute;
+  width: 1px;
+}
+
+//.back1 {
+//  @extend %theme-background4;
+//}

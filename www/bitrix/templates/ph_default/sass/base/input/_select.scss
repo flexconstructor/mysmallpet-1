@@ -1,0 +1,37 @@
+.select {
+  display: inline-block;
+
+  &__btn {
+    @extend %theme-background4;
+    
+    border: 1px solid $dropdown-border;
+    box-shadow: none;
+    box-sizing: border-box;
+    display: block;
+    min-height: $line-height-computed*2;
+    min-width: $line-height-computed*10;
+    padding: $line-height-computed/2 $line-height-computed/2 $line-height-computed/2 $line-height-computed;
+    text-align: left;
+    text-decoration: none;
+    
+    &:hover {
+      text-decoration: none;
+    }
+    
+    .open > & {
+      background: $body-bg;
+      box-shadow: 3px 8px 8px 0 rgba($gray-dark, 0.75);
+    }
+  }
+  
+  &__icon {
+    fill: none;
+    float: right;
+    font-size: 18px;
+    margin-left: 2px;
+    margin-top: 0;
+    stroke: $skin0_bg;
+    stroke-width: 1px;
+    vertical-align: middle;
+  }
+}

@@ -1,0 +1,36 @@
+.personal-subscribe {
+
+
+  & &__format,
+  & &__rubrics,
+  & &__note,
+  & &__button,
+  & &__utility {
+    margin-bottom: $line-height-computed/2;
+  }
+
+  & &__utility .btn {
+    margin: $line-height-computed/2 0;
+  }
+
+  & &__note {
+    color: $gray-darker;
+  }
+
+  & &__save-icon {
+    background-position: 0 -1787px;
+    height: 16px;
+    width: 24px;
+  }
+
+  & &__email {
+    display: inline-block;
+    width: auto;
+    min-width: 220px;
+  }
+
+  & .radio-inline,
+  & .checkbox-inline {
+    padding: $line-height-computed/2 $line-height-computed $line-height-computed/2 $line-height-computed*1.2;
+  }
+}

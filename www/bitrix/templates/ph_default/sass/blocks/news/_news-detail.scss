@@ -1,0 +1,17 @@
+.news-detail {
+  margin-bottom:  $line-height-computed;
+
+  &__picture {
+    float: right;
+    margin: 0 0 $line-height-computed  $line-height-computed;
+    max-width: 600px;
+  }
+  
+  &__back {
+    text-decoration: none;
+  }
+
+  &__back:hover {
+    text-decoration: none;
+  }
+}

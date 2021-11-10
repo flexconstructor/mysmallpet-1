@@ -1,0 +1,180 @@
+
+@import "functions";
+
+
+@import "settings";
+
+// @import "themes/activelife/settings";
+// @import "themes/everyday/settings";
+//@import "themes/everyday-tokyomag.ru/settings";
+//@import "themes/everyday-ingurman/settings";
+// @import "themes/fashionshow/settings";
+// @import "themes/homeware/settings";
+// @import "themes/lovekids/default/settings";
+// @import "themes/lovekids/default2/settings";
+// @import "themes/mediamart/settings";
+// @import "themes/officespace/settings";
+@import "themes/pethouse/settings";
+//@import "themes/stroymart/settings";
+
+@import "sprite_png";
+@import "sprite_svg";
+
+@import "bootstrap-variables";
+@import "bootstrap/bootstrap";
+@import "bootstrapfix";
+
+$theme_name: 'everyday';
+$theme: activelife;
+$themes: (
+    0: activelife,
+    1: everyday,
+    2: fashionshow,
+    3: homeware,
+    4: lovekids,
+    41: lovekids2,
+    5: mediamart,
+    6: officespace,
+    7: pethouse,
+    8: stroymart
+);
+
+// @import "themes/activelife/mixin";
+// @import "themes/everyday/mixin";
+//@import "themes/everyday-tokyomag.ru/mixin";
+//@import "themes/everyday-ingurman/mixin";
+// @import "themes/fashionshow/mixin";
+// @import "themes/homeware/mixin";
+// @import "themes/lovekids/default/mixin";
+//@import "themes/lovekids/default2/mixin";
+// @import "themes/mediamart/mixin";
+// @import "themes/officespace/mixin";
+@import "themes/pethouse/mixin";
+//@import "themes/stroymart/mixin";
+
+@import "settings_theme";
+
+html {
+  font-size: $font-size-base * 100% / $browser-default-font-size;
+  line-height: $line-height-computed / $font-size-base;
+}
+
+@import "mixin";
+
+@import "base";
+@import "base/icons";
+@import "base/typography";
+@import "base/grid";
+@import "base/btn";
+@import "base/dropdowns";
+@import "base/collapse";
+@import "base/layout";
+@import "base/owl";
+@import "base/navs";
+@import "base/location";
+@import "base/breadcrumbs";
+@import "base/scroll";
+@import "base/load";
+@import "base/loading";
+@import "base/fancy";
+@import "base/menu_icon";
+@import "base/tooltip";
+@import "base/logo";
+@import "base/overlay";
+@import "base/hint";
+@import "base/badge";
+@import "base/table";
+@import "base/rate";
+@import "base/webpage";
+
+@import "base/alert";
+@import "base/input/forms";
+@import "base/input/checkbox";
+@import "base/input/select";
+@import "base/input/input-groups";
+
+@import "bitrix";
+
+@import "blocks/abc";
+@import "blocks/adds";
+@import "blocks/auth_top";
+@import "blocks/adv_owl";
+@import "blocks/glass";
+@import "blocks/timer";
+
+@import "blocks/cart/cart";
+@import "blocks/cart/cart_top";
+@import "blocks/cart/coupon";
+
+@import "blocks/menu/catalog";
+@import "blocks/menu/top";
+@import "blocks/menu/v";
+@import "blocks/menu/cols";
+@import "blocks/menu/vml";
+
+@import "blocks/search/input";
+@import "blocks/search/page";
+@import "blocks/search/popup";
+@import "blocks/carousel";
+@import "blocks/cities";
+
+@import "blocks/cmp/cmp";
+@import "blocks/cmp/cmp_page";
+@import "blocks/cmp/cmp_items";
+
+@import "blocks/catalog/product";
+@import "blocks/catalog/offer_prop";
+@import "blocks/catalog/price";
+@import "blocks/catalog/quantity";
+@import "blocks/catalog/stickers";
+@import "blocks/catalog/corner";
+@import "blocks/catalog/gender";
+@import "blocks/catalog/favorite";
+@import "blocks/catalog/picbox";
+@import "blocks/catalog/stocks";
+@import "blocks/catalog/catalog";
+@import "blocks/catalog/catalog_item";
+@import "blocks/catalog/detail";
+@import "blocks/catalog/set";
+@import "blocks/catalog/filter";
+@import "blocks/catalog/props_group";
+@import "blocks/catalog/reviews";
+@import "blocks/catalog/brand";
+
+@import "blocks/news";
+
+@import "blocks/personal/section";
+@import "blocks/personal/panel";
+@import "blocks/personal/product-table";
+@import "blocks/personal/subscribe";
+@import "blocks/personal/auth";
+@import "blocks/personal/section";
+@import "blocks/personal/account";
+@import "blocks/personal/account_pay";
+@import "blocks/personal/profile";
+@import "blocks/personal/profile-list";
+@import "blocks/personal/profile-detail";
+
+@import "blocks/order/empty-cart";
+@import "blocks/order/order-section";
+@import "blocks/order/order-sidebar";
+@import "blocks/order/order-list";
+@import "blocks/order/order-detail";
+
+@import "blocks/shop/shops";
+@import "blocks/shop/shop-item";
+@import "blocks/shop/shop-panel";
+
+@import "blocks/share";
+@import "blocks/doc";
+@import "blocks/forum";
+@import "blocks/mainbanners";
+@import "blocks/delivery_page";
+@import "blocks/payment_page";
+@import "blocks/tile";
+
+@import "blocks/sorter";
+@import "blocks/pagenav";
+
+
+@import "components/module";

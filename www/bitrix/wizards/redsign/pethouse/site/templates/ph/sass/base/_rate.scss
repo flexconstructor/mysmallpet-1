@@ -1,0 +1,30 @@
+.rate {
+  @extend .clearfix;
+  display: inline-block;
+
+  & > &__icon {
+    cursor: pointer;
+    fill: #ffc424;
+    float: left;
+    height: 15px;
+    padding-right: $line-height-computed/16;
+    pointer-events: auto;
+    width: 15px;
+    
+    & + & {
+      padding-left: $line-height-computed/16;
+    }
+  }
+  
+  &:hover > &__icon,
+  &.is-checked:hover > &__icon:hover ~ &__icon,
+  &.is-checked:hover > &__icon {
+    fill: #ffc424;
+  }
+
+  &:hover > &__icon:hover ~ &__icon,
+  &.is-checked:hover > &__icon.checked ~ &__icon,
+  &.is-checked > &__icon.checked ~ &__icon {
+    fill: $gray;
+  }
+}

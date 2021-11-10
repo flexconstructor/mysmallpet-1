@@ -1,0 +1,10 @@
+.cities {
+
+  .fancybox-slide & {
+    @extend .container;
+    
+    box-sizing: border-box;
+    padding: $line-height-computed*1.5;
+  }
+}
+

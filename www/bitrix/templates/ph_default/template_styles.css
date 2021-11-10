@@ -1,0 +1,10 @@
+.offers_custom_table .offer_add_count input[type='number']::-webkit-inner-spin-button, .offers_custom_table .offer_add_count input[type='number']::-webkit-outer-spin-button{
+    -moz-appearance:textfield;
+	appearance:textfield;
+	margin:0;
+}
+.offers_custom_table .offer_add_count input[type='number']{
+	-moz-appearance:textfield;
+	appearance:textfield;
+	-moz-padding-start: 0px;
+}

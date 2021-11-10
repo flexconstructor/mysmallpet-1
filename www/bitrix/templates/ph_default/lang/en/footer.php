@@ -1,0 +1,6 @@
+<?
+$MESS["RS_SLINE.FOOTER.RECALL"] = "Call me back";
+$MESS["RS_SLINE.FOOTER.FEEDBACK"] = "Feedback";
+$MESS["RS_SLINE.FOOTER.FEEDBACK_TITLE"] = "Feedback";
+$MESS["RS_SLINE.FOOTER.JOIN_NOW"] = "Join now";
+?>

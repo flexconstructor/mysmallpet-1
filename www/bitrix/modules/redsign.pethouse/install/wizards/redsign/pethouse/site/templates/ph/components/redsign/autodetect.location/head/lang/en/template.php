@@ -1,0 +1,4 @@
+<?
+$MESS["RS_SLINE.RADL_HEAD.YOUR_CITY"] = "Your city";
+$MESS["RS_SLINE.RADL_HEAD.SELECT_CITY"] = "Select";
+?>

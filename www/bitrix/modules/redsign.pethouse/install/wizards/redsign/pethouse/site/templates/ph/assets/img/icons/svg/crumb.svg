@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="crumb.svg" class="cls-1" d="M0.909,16.537A0.458,0.458,0,0,1,.455,17h0A0.458,0.458,0,0,1,0,16.537V0.462A0.458,0.458,0,0,1,.455,0h0A0.458,0.458,0,0,1,.909.462V16.537ZM1,1H3V3H1V1ZM3,3H5V5H3V3ZM1,5H3V7H1V5ZM3,7H5V9H3V7ZM5,1H7V3H5V1ZM7,3H9V5H7V3ZM5,5H7V7H5V5ZM7,7H9V9H7V7ZM9,1h2V3H9V1Zm2,2h2V5H11V3ZM9,5h2V7H9V5Zm2,2h2V9H11V7Zm2,3H0V0H13V10ZM1,9H13V1H1V9Z"/>
+</svg>

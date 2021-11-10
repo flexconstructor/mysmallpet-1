@@ -1,0 +1,155 @@
+.panel {
+  border: 1px solid $gray-light;
+  border-radius: em($line-height-computed * .5);
+  margin-bottom: $line-height-computed;
+  position: relative;
+
+  &__head {
+    @extend %theme-background4;
+
+    border-bottom: 1px solid $gray-light;
+    border-radius: 8px 8px 0 0;
+    border-radius: em($line-height-computed * .5) em($line-height-computed * .5) 0 0;
+    font-size: $font-size-h4;
+    font-weight: bold;
+    overflow: hidden;
+    padding: $line-height-computed/2 $line-height-computed;
+    text-align: left;
+  }
+  
+  &__name {
+    display: inline-block;
+    font-size: $font-size-h4;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  &__body {
+    @extend .clearfix;
+    margin: 0 $line-height-computed 0;
+    padding-top: $line-height-computed;
+
+    .table_items {
+      marginbottom: 0;
+    }
+
+    .table_items tr:last-child > td {
+      border-bottom: 0;
+    }
+    
+    &.is-hidden {
+      display: none;
+    }
+  }
+
+  &__col {
+    margin-bottom: $line-height-computed;
+
+    .list-inline {
+      margin-bottom: 0;
+    }
+  }
+
+  &__icon {
+    fill: $gray-light;
+    margin-right: .5em;
+
+    &.icon-user {
+      height: 22px;
+      margin-bottom: -2px;
+      margin-top: -2px;
+      width: 22px;
+    }
+
+    &.icon-box {
+      height: 22px;
+      margin-bottom: -2px;
+      margin-top: -2px;
+      width: 23px;
+    }
+
+    &.icon-cart {
+      height: 22px;
+      margin-bottom: -2px;
+      margin-top: -2px;
+      width: 26px;
+    }
+  }
+
+  &__more {
+    color: $link-color;
+    float: right;
+    font-size: $font-size-large;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  &__sub {
+    @extend .clearfix;
+
+    padding: $line-height-computed/2 0 $line-height-computed*0.4;
+    text-transform: uppercase;
+  }
+  
+  &__subtitle {
+    color: $gray-dark;
+    float: left;
+    font-size: $font-size-h6;
+    margin: 0 $line-height-computed/4 0 0;
+  }
+  
+  &__subborder {
+    background: $table-border-color;
+    display: block;
+    height: 1px;
+    margin: ($line-height-computed - 1)/2 0;
+    overflow: hidden;
+  }
+  
+  &__footer {
+    margin: $line-height-computed/2 $line-height-computed;
+    padding-top: $line-height-computed/2;
+    border-top: 1px solid $table-border-color;
+
+    a {
+      color: $gray-base;
+      font-size: $font-size-small;
+      font-weight: bold;
+      line-height: $line-height-computed;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.profile_block.order_hided{
+  border-radius: 8px 8px 0 0;
+  border-bottom: none;
+  padding: 0;
+}
+.profile_block.order_hided .profile_block_body{
+  display: none;
+}
+
+.profile_block .profile_block_head .icon{
+  line-height: 40px;
+  margin: -2px 7px 0 0;
+}
+
+.profile_block .title-razdel{
+  float: left;
+  font-size: 15px;
+  margin-left: 7px;
+}
+.profile_block td{
+  color: #444;
+  padding-bottom: 16px;
+}
+.profile_block img{
+  max-height: 100px;
+  max-width: 80px;
+}

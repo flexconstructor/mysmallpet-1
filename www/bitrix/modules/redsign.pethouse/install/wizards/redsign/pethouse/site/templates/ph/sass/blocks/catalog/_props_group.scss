@@ -1,0 +1,33 @@
+.props_group {
+  margin-bottom: $line-height-computed * .5;
+
+  &__name {
+    color: $skin0_bg;
+    font-size: $font-size-h4;
+    font-weight: bold;
+    padding: $line-height-computed/2 $line-height-computed;
+  }
+
+  &__props {
+    width: 100%;
+
+    > tbody > tr {
+
+      > th,
+      > td {
+        padding: $line-height-computed/2 $line-height-computed;
+        text-align: left;
+        width: 50%;
+      }
+
+      &:nth-child(odd) {
+        background: $gray-light;
+      }
+    }
+
+  }
+
+  @media(min-width: $screen-md-min) {
+    max-width: 580px;
+  }
+}

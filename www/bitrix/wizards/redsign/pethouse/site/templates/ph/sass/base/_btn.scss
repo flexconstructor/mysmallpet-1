@@ -1,0 +1,67 @@
+%btn {
+  //background-image: none;
+  border: none;
+  border-radius: $border-radius-base;
+  box-shadow: 0 0 2px -1px $gray-base;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  font-size: $font-size-base;
+  //height: $line-height-computed*2;
+  min-height: $line-height-computed*2;
+  outline: none;
+  padding: $line-height-computed/2 $line-height-computed*0.75;
+  text-align: center;
+  text-decoration: none;
+  touch-action: manipulation;
+  user-select: none;
+  vertical-align: middle;
+}
+
+
+.btn {
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+    
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:active {
+    box-shadow: 0 -1px 2px -1px $gray-base, 1px 1px 2px -1px $gray-base inset;
+    text-decoration: none;
+  }
+  
+  &__icon {
+    margin-right: .5em;
+  }
+}
+
+.bx-catalog-subscribe-button {
+  @extend .btn;
+}
+
+.btn-default,
+.sale_order_full_table.complete input[type="submit"] {
+  @extend %theme-btn1;
+}
+
+.btn-primary {
+  @extend %theme-btn2;
+}
+
+
+.btn-grey {
+  @extend %theme-btn3;
+}
+
+.btn-large {
+  font-size: $font-size-h4;
+  line-height: $line-height-computed*2;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}

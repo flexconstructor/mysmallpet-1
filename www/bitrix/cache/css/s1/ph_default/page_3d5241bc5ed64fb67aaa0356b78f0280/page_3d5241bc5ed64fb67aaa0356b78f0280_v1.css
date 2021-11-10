@@ -1,0 +1,98 @@
+
+
+/* Start:/bitrix/templates/ph_default/components/bitrix/catalog.element/catalog_custom/style.css?16354170901981*/
+.offers_custom_table tbody tr:first-child td{
+    border-top: none;
+}
+.offers_custom_table .offer_rows{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.offer_rows .offer_weight, .offers_custom_table .offer_price{
+    font-weight: bold;
+    font-size: 16px;
+}
+.offer_rows .offer_avail{
+    font-style: italic;
+}
+.offers_custom_table .offer_price, .offers_custom_table .offer_add_count{
+    vertical-align: middle;
+    text-align: center;
+}
+.offers_custom_table td{
+    width: 10rem;
+    text-align: center;
+}
+.total_weight, .total_price, .total_count{
+    font-weight: bold;
+    font-size: 16px;
+}
+.total_div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.offers_custom_table .total_info{
+    background: #80808024;
+}
+.offers_custom_table .offer_add_count input{
+    width: 60px;
+    text-align: center;
+    padding-left: 15px;
+    max-height: 23px;
+    margin: 0 -4px 0 -4px;
+}
+.offer-minus{
+    width: 25px;
+    background: #80808024;
+    border: 1px solid #767676;
+    max-height: 23px;
+    height: 23px;
+    border-right: 0;
+}
+.offer-plus{
+    width: 25px;
+    border: 1px solid #767676;
+    max-height: 23px;
+    height: 23px;
+    border-left: 0;
+    background: #80808024;
+}
+.offer-plus:hover, .offer-plus:focus, .offer-plus:visited{
+    border: 1px solid #767676;
+}
+.offers_to_cart_btn{
+    padding: 0 !important;
+    font-size: 14px !important;
+}
+.offer_avail.available::before{
+    content: '\2713';
+    color: white;
+    right: 5px;
+    background: green;
+    border-radius: 10px;
+    padding: 0 3px;
+    position: relative;
+    font-size: 10px;
+}
+.offer_avail.not_available::before{
+    content: '\00D7';
+    color: white;
+    right: 5px;
+    background: red;
+    border-radius: 10px;
+    padding: 0 4px;
+    position: relative;
+    font-size: 10px;
+}
+
+@media (max-width: 768px) {
+    .offers_custom_table .offer_add_count input{
+        width: 20px;
+        text-align: initial;
+    }
+}
+/* End */
+/* /bitrix/templates/ph_default/components/bitrix/catalog.element/catalog_custom/style.css?16354170901981 */
