@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"Доставка", 
+		"/delivery/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Оплата", 
+		"/payment/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Поставщикам", 
+		"/suppliers/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Все производители", 
+		"/brands/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>
