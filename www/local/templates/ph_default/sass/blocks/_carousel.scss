@@ -1,0 +1,52 @@
+.carousel {
+
+  .owl-stage {
+    right: 20px;
+  }
+  &.owl-carousel  &__img {
+    @extend .vcenter__in;
+    
+    max-width: 100%;
+    width: auto;
+  }
+
+  &__item {
+    display: block;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    
+	&:hover {
+	  text-decoration: none;
+	}
+  }
+  
+  &.owl-carousel &__item {
+    float: none;
+  }
+
+  &__img {
+    opacity: 0.8;
+  }
+
+  &__item:hover &__img {
+    opacity: 1;
+  }
+
+  &__pic {
+    @extend .vcenter;
+
+    display: block;
+  }
+
+  &__name {
+    @extend .text_fade;
+
+    height: $line-height-computed*2;
+    padding-top: $line-height-computed/2;
+
+    &:after {
+      top: $line-height-computed*1.5;
+    }
+  }
+}

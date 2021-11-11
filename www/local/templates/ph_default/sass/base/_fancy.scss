@@ -1,0 +1,125 @@
+.fancybox-bg {
+	//background: rgba(255, 255, 255, .7);
+}
+
+.fancybox-slide {
+
+	& > div {
+		border-radius: $line-height-computed/2;
+	max-width: 100%;
+		padding: $line-height-computed*1.5;
+	}
+
+	&--complete > div {
+		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+	}
+
+	.form {
+
+		&.row// , //check & delete
+		// .row
+		{
+			margin: 0;
+
+			& > .col {
+				float: none;
+				padding: 0;
+				width: auto;
+			}
+		}
+
+		.btn {
+			width: 100%;
+		}
+	}
+
+	.bx-auth-title {
+		border: none;
+	}
+	
+	.fancybox-footer {
+
+		background-color: $gray-lighter;
+		margin: $line-height-computed*1.5 $line-height-computed*-1.5 $line-height-computed*-1.5;
+		padding: $line-height-computed/2 $line-height-computed*1.5;
+		text-align: center;
+
+		& > a {
+			color: $gray-darker;
+			border-bottom: 1px dashed;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-decoration: none;
+			transition: .2s;
+
+			&:hover {
+				border-bottom-color: transparent;
+				color: $skin0_bg;
+			}
+		}
+	}
+}
+
+.fancybox-slide .fancybox-image-wrap,
+.fancybox-placeholder {
+	background: $body-bg;
+}
+
+.fancybox-slide > .fancybox-loading {
+	@extend .loading;
+
+	animation: none;
+	background: none;
+	border: none;
+	box-shadow: none;
+	position: fixed;
+	margin-left: -72px;
+	margin-top: -72px;
+	opacity: 1;
+	overflow: visible;
+
+}
+
+.fancybox-loading {
+
+	> div {
+		@extend .loading__in;
+	}
+}
+
+.fancybox-title {
+	@extend %theme-background2;
+
+	border-radius: $line-height-computed/2 $line-height-computed/2 0 0;
+	font-size: $font-size-h3;
+	line-height: $line-height-computed*2;
+	margin: $line-height-computed*-1.5 $line-height-computed*-1.5 $line-height-computed*1.5;
+	padding: $line-height-computed/2 $line-height-computed*2.5 $line-height-computed/2 $line-height-computed*1.5;
+	text-align: center;
+	z-index: 1;
+}
+
+.fancybox-close {
+	background: none;
+	cursor: pointer;
+	fill: $skin2_color;
+	font-size: $font-size-h4;
+	pointer-events: auto;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 2;
+
+	&:hover{
+		transform: scale(1.1, 1.1);
+	}
+}
+
+@media(min-width: $screen-sm-min) {
+	.fancybox-slide {
+		.form {
+			max-width: $line-height-computed*30;
+			min-width: $line-height-computed*20;
+		}
+	}
+}
