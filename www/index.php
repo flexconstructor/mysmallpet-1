@@ -1,4 +1,4 @@
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");    
 $APPLICATION->SetTitle("Главная");
 $APPLICATION->SetPageProperty("title", "Главная");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
