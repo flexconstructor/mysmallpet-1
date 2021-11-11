@@ -1,3 +1,4 @@
 www/bitrix/cache/*
 logs/mysmallpet-access.log
 logs/mysmallpet-error.log
+*.log
