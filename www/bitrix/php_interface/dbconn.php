@@ -3,8 +3,8 @@
 define("DBPersistent", false);
 $DBType = "mysql";
 $DBHost = "db";
-$DBLogin = "root";
-$DBPassword = "notSecureChangeMe";
+$DBLogin = "mysmallpet_db";
+$DBPassword = "mysmallpet_db_2021";
 $DBName = "mysmallpet_db";
 $DBDebug = false;
 $DBDebugToFile = false;

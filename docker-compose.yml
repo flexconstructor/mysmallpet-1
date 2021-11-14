@@ -6,16 +6,14 @@ services:
             - "80:80"
             - "443:443"
         volumes:
-            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
-            - ./www:/var/www
-        links:
-            - php
+            - ./nginx.conf:/usr/local/nginx/conf/nginx.conf
+            - ./www:/usr/share/nginx/html
     php:
         build:
             context: .
             dockerfile: PHP.Dockerfile
-        links:
-            - db
+        expose:
+          - 9000
         volumes:
             - ./www:/var/www
     db:
@@ -24,18 +22,18 @@ services:
       ports:
             - "3306:3306"
       volumes:
-          - ./my.conf:/etc/mysql/my.conf
+          - ./my.cnf:/etc/mysql/my.cnf
+          - ./.db:/var/lib/mysql
       environment:
-        MYSQL_ROOT_PASSWORD: notSecureChangeMe
-        MYSQL_USER: 'mysmallpet_db'
-        MYSQL_PASSWORD: 'mysmallpet_db_2021'
-        MYSQL_DATABASE: 'mysmallpet_db'
+        MARIADB_USER: 'mysmallpet_db'
+        MARIADB_PASSWORD: 'mysmallpet_db_2021'
+        MARIADB_DATABASE: 'mysmallpet_db'
+        MARIADB_ALLOW_EMPTY_ROOT_PASSWORD: 'yes'
 
     phpmyadmin:
       image: phpmyadmin
-      restart: always
       ports:
-        - 8080:80
+        - 8082:80
       environment:
         - PMA_ARBITRARY=1
 volumes:
