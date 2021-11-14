@@ -2,9 +2,9 @@
 /* Ansible managed */
 define("DBPersistent", false);
 $DBType = "mysql";
-$DBHost = "localhost";
-$DBLogin = "mysmallpet_db";
-$DBPassword = "mysmallpet_db_2021";
+$DBHost = "db";
+$DBLogin = "root";
+$DBPassword = "notSecureChangeMe";
 $DBName = "mysmallpet_db";
 $DBDebug = false;
 $DBDebugToFile = false;

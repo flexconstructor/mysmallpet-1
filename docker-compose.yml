@@ -1,0 +1,42 @@
+version: '3'
+services:
+    web:
+        image: nginx:latest
+        ports:
+            - "80:80"
+            - "443:443"
+        volumes:
+            - ./nginx.conf:/etc/nginx/conf.d/nginx.conf
+            - ./www:/var/www
+        links:
+            - php
+    php:
+        build:
+            context: .
+            dockerfile: PHP.Dockerfile
+        links:
+            - db
+        volumes:
+            - ./www:/var/www
+    db:
+      image: mariadb:latest
+      restart: always
+      ports:
+            - "3306:3306"
+      volumes:
+          - ./my.conf:/etc/mysql/my.conf
+      environment:
+        MYSQL_ROOT_PASSWORD: notSecureChangeMe
+        MYSQL_USER: 'mysmallpet_db'
+        MYSQL_PASSWORD: 'mysmallpet_db_2021'
+        MYSQL_DATABASE: 'mysmallpet_db'
+
+    phpmyadmin:
+      image: phpmyadmin
+      restart: always
+      ports:
+        - 8080:80
+      environment:
+        - PMA_ARBITRARY=1
+volumes:
+    mysqldata: {}
